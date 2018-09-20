@@ -1,0 +1,88 @@
+⼀、基础模板
+ 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+<title>第⼀一个⻚页⾯面</title> </head>
+<body>
+    </body>
+</html>
+
+⼆、模板解读
+    DOCTYPE:指定⽂档类型，规定html标签语法 
+    html:⽂档根标签，标注着⽂档(页⾯)的开始与结束 
+    head:⽂档头标签，可以引⽤用脚步文件、指定样式表、书写代码逻辑块、提供元信息 
+    body:⽂档主体标签，包含⽂档所有⽂本与超⽂本内容 
+    title:⽂档tag标题标签，设置⽂档tag的标题内容
+v_hint:html标签的lang属性值 en | zh(zh-cn) 
+三、其他核心模板标签
+1、meta(元标签)
+ 
+字符编码
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+SEO
+<meta name="keywords" content="8-12个以英⽂文逗号隔开的单词或词语">
+<meta name="description" content="80字以内的⼀一段话，与⽹网站内容相关">
+移动适配
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum- 
+scale=1,maximum-scale=1,user-scalable=no" />
+
+2、link(链接标签)
+ 
+外联样式表
+<link rel="stylesheet" type="text/css" href="style.css" /> ⽂文档tag图标
+<link rel="shortcut icon" type="image/x-icon" href="http://www.baidu.com/favicon.ico" />
+
+3、style(样式标签)
+  内联样式表
+<style></style>
+
+4、script(脚本标签)
+<script type="text/javascript"></script>
+
+==========================================================================================
+
+html常用标签 
+1、⽆语义标签
+    <div></div>
+    <span></span>
+2、常⽤语义标签
+    <hn></hn> 标题 
+    <p></p> 段落 
+    <pre></pre> 原⽂文本 
+    <br /> 换行
+    <hr /> 分割线
+3、⽂本标签
+    <i></i> 斜体字
+    <em></em> 斜体字，表示强调
+    <b></b> 粗体字
+    <strong></strong> 粗体字，表示强调(语⽓更强) 
+    <del></del> 删除的文本
+    <ins></ins> 插⼊的⽂本
+    <sub></sub> 下标字
+    <sup></sup> 上标字
+    <ruby>
+    拼音<rt>pinyin</rt> 
+    </ruby> 中文注⾳，h5新增
+
+4、其他标签
+  <section></section> 块 
+  <small></small> ⼩号字体
+  
+ ===================================================================================
+ 标签分类 
+ 1、单|双标签
+  单标签:单标签在⾃身标签标识结束，主要应用场景为功能性标签
+  双标签:双标签有成对的结束标识，主要应用场景为内容性标签
+2、行|块标签 
+  ⾏标签:⼜名内联标签，内联标签⾃身不不具备宽⾼，通常同行显示
+  块标签:⼜名块级标签，块标签拥有⾃身宽高，通常独自占据⼀行
+3、单⼀|组合标签 
+  单⼀标签:单独出现，表示具体的功能或展示具体的内容
+  组合标签:配合使用，才能产⽣相应的内容与效果
+
+
+
+
